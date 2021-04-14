@@ -1,0 +1,465 @@
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+ul, li {
+    list-style: none;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+
+
+
+
+div {
+    box-sizing: border-box;
+}
+
+nav {
+    float: right;
+    margin-top: 81px;
+}
+
+body {
+    background-color: #f6f9fa;
+}
+
+.heading {
+    height: 150px;
+}
+
+.container {
+    width: 82%;
+
+    margin: 0 auto;
+}
+
+.logo {
+    margin-top: 53px;
+    float: left;
+    margin-right: 20px;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.menu li {
+    float: left;
+    display: block;
+    margin-right: 41px;
+    font-size: 20px;
+    font-family: "Gilroy-Medium";
+}
+
+.menu a {
+    color: #000000;
+    text-decoration: none;
+
+}
+
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: url("./fonts/Gilroy/gilroy-medium.ttf") format("truetype");
+    font-style: 500;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url("./fonts/Gilroy/gilroy-bold.ttf");
+    font-style: 700;
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./fonts/Gilroy/gilroy-regular.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+.career {
+    font-family: Gilroy-Bold;
+    font-size: 80px;
+    line-height: 94px;
+    letter-spacing: 0.05em;
+    color: #3C414F;
+    margin-top: 171px;
+}
+
+.description {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+    color: #3C414F;
+    margin-top: 23px;
+}
+
+.for-students {
+    font-family: Gilroy-Bold;
+    font-size: 50px;
+    line-height: 59px;
+    letter-spacing: 0.05em;
+    color: #3C414F;
+    text-align: left;
+    max-width: 277px;
+}
+
+.buttons-for-students {
+    width: 197px;
+    height: 197px;
+    left: 596px;
+    top: 702px;
+    flex-direction: column;
+    background: linear-gradient(102.51deg, rgba(255, 255, 255, 0.5) 14.21%, rgba(255, 255, 255, 0.5) 88.62%);
+    box-shadow: 0px 30px 100px rgba(0, 0, 0, 0.2), inset 5px -5px 4px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 30px;
+    margin-right: 42px;
+    margin-bottom: 42px;
+    padding: 28px;
+    display: flex;
+}
+
+
+.button-text {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #00123F;
+    text-align: left;
+}
+
+.table-for-students {
+    max-width: 438px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 245px;
+}
+
+.title {
+    margin-bottom: 290px;
+}
+
+.buttons-for-students p {
+    vertical-align: top;
+}
+
+
+
+.list {
+    width: 446px;
+    height: 254px;
+
+    background: linear-gradient(102.51deg, rgba(255, 255, 255, 0.3) 14.21%, rgba(255, 255, 255, 0.3) 88.62%);
+    box-shadow: 0px 30px 100px rgba(0, 0, 0, 0.15), inset 5px -5px 4px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 30px;
+    display: flex;
+    padding: 38px;
+    align-items: center;
+}
+
+.flex-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 222px;
+}
+.employers p {
+    width: 393px;
+    height: 62px;
+
+    font-family: Gilroy-Bold;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #3C414F;
+}
+
+.list p {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: left;
+    letter-spacing: 0.05em;
+    color: #00123F;
+    
+}
+
+
+
+.line {
+    margin-left: 12px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 25px;
+}
+
+.options a {
+    margin-bottom: 54px;
+}
+
+
+
+.options a:last-child {
+    margin-bottom: 0px;   
+}
+
+.white-stuff {
+    width: 100%;
+    height: 699px;
+    margin-bottom: 327px;
+    
+    background: #FFFFFF;
+}
+
+.our-projects {
+    height: 160px;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plitki {
+    height: 539px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 57px;
+}
+
+.plitki p {
+    width: 148.39px;
+    height: 58.41px;
+    font-family: Gilroy-Bold;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #3C414F;
+}
+
+.our-projects p {
+    font-family: Gilroy-Bold;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #3C414F;
+}
+
+.plitka-1 {
+    width: 273.35px;
+    height: 325px;
+    padding: 40px;
+    text-align: center;
+    background: linear-gradient(90.96deg, rgba(251, 174, 188, 0.5) 0.1%, rgba(255, 255, 255, 0.5) 104.24%);
+    box-shadow: 0px 30px 100px rgba(0, 0, 0, 0.2), inset 5px -5px 4px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.plitka-1:hover {
+    transform: scale(1.1);
+}
+
+.plitka-2:hover {
+    transform: scale(1.1);
+}
+
+.plitka-3:hover {
+    transform: scale(1.1);
+}
+
+
+.plitka-2 {
+    width: 273.35px;
+    height: 325px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(90.96deg, rgba(250, 215, 186, 0.5) 0.1%, rgba(255, 255, 255, 0.5) 104.24%);
+    box-shadow: 0px 30px 100px rgba(0, 0, 0, 0.2), inset 5px -5px 4px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.plitka-3 {
+    width: 273.35px;
+    height: 325px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(90.96deg, rgba(104, 65, 221, 0.5) 0.1%, rgba(255, 255, 255, 0.5) 104.24%);
+    box-shadow: 0px 30px 100px rgba(0, 0, 0, 0.2), inset 5px -5px 4px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.white-stuff-2 {
+    width: 100%;
+    height: 261px;
+
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+
+.contacts-phrase {
+    width: 95px;
+    height: 24px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #00123F;
+}
+
+.contacts {
+    width: 266px;
+    height: 23px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+
+    color: #00123F;
+}
+
+.contacts a{
+    color: #00123F;
+}
+
+.contacts-list {
+    padding-top: 39px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts-list p{
+    margin-bottom: 27px;
+}
+
+.contacts-list p:last-child{
+    margin-bottom: 0;
+}
